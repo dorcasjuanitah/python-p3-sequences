@@ -6,9 +6,9 @@ def print_fibonacci(n):
         return 
     
     list = [0,1]
-    while len(list) <= n:
+    while len(list) < n:
         new_list = list[-1] + list[-2]
         list.append(new_list)
 
-print(list[:n])
+print(list())
     
